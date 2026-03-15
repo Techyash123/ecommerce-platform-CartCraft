@@ -1,15 +1,16 @@
-# ecommerce-platform-CartCraft
-A full-stack e-commerce application built with the MERN stack (MongoDB, Express.js, React, Node.js) featuring an user panel, payment integration, and order tracking.
+# React + Vite
 
-About the Project
-This is a full-stack e-commerce web application developed as a learning project using the MERN stack — MongoDB, Express.js, React, and Node.js. The goal of this project was to gain hands-on experience building a complete, production-like web application from scratch.
-Features
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Payment Integration — Secure online payments powered by a payment gateway
-Order Tracking — Users can place orders and track their status in real time
-Product Management — Browse, search, and filter products
-Shopping Cart — Add, update, and remove items from the cart
-Responsive Design — Fully responsive UI built with React
+Currently, two official plugins are available:
 
-Tech Stack
-LayerTechnologyFrontendReact.jsBackendNode.js, Express.jsDatabaseMongoDB, MongooseAuthenticationJWT (JSON Web Tokens)PaymentPayment Gateway Integration
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
